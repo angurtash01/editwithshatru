@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Editor Portfolio - Shatrugna Munankar</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+
+    <!-- Tailwind Configuration (Loaded via script.js) -->
+    <!-- IMPORTANT: script.js must be loaded AFTER the Tailwind CDN -->
+    <script src="script.js" defer></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Remixicon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-[#000000] text-white"> <!-- Applied base colors directly -->
+    <!-- Hero Section -->
+    <section
+      class="relative h-screen flex flex-col items-center justify-center overflow-hidden p-4 text-center"
+    >
+      <div class="noise"></div>
+      <div class="portfolio-text">PORTFOLIO</div>
+      <div class="relative z-10 flex flex-col items-center">
+        <div
+          class="w-48 h-48 sm:w-64 sm:h-64 mb-6 sm:mb-8 rounded-full overflow-hidden border-4 border-primary"
+        >
+          <img
+            src="shatru.png"
+            alt="Video Editor Portrait - Shatrugna Munankar"
+            class="w-full h-full object-cover"
+          />
+        </div>
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold mb-2">
+          Shatrugna Munankar
+        </h1>
+        <h2
+          class="text-lg sm:text-xl md:text-2xl font-medium text-primary mb-8 sm:mb-12"
+        >
+          Short-Form Video Editor | Content Specialist
+        </h2>
+        <div class="scroll-indicator text-primary absolute bottom-10">
+          <div class="w-10 h-10 flex items-center justify-center">
+            <i class="ri-arrow-down-line ri-2x"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Showcase Section -->
+    <section class="py-16 md:py-24 px-4 sm:px-8 max-w-7xl mx-auto">
+      <h2
+        class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-12 md:mb-16 relative"
+      >
+        <span class="relative z-10">My Work</span>
+        <span
+          class="absolute -bottom-2 left-0 w-16 sm:w-24 h-1 bg-primary"
+        ></span>
+      </h2>
+
+      <!-- Client 1: KUNDE SOLAR -->
+      <div class="bg-[#1f1f1f] p-6 rounded-xl max-w-6xl mx-auto mb-12">
+        <div class="flex items-center mb-6">
+          <div class="w-12 h-12 rounded-full overflow-hidden mr-4 flex-shrink-0">
+            <img src="kundegoa.png" alt="Kunde Solar Logo" class="w-full h-full object-cover">
+          </div>
+          <span class="text-lg font-medium text-gray-300">KUNDE SOLAR SOLUTIONS GOA</span>
+        </div>
+        <!-- Bento Grid for Kunde -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
+          <!-- Video 1.1 -->
+          <div class="bento-item aspect-[9/16] relative overflow-hidden rounded-lg shadow-md">
+            <iframe
+              src="https://player.vimeo.com/video/1076722370?h=c15ed587a1&title=0&byline=0&portrait=0"
+              class="w-full h-full"
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+              allowfullscreen
+              title="Kunde Solar - Showcase">
+            </iframe>
+            <div class="absolute bottom-0 w-full bg-black bg-opacity-60 text-white text-center p-2">
+              <h3 class="text-sm font-semibold">Project Showcase</h3>
+              <p class="text-xs text-gray-300">Client: Kunde Solar | Style: Dynamic</p>
+            </div>
+          </div>
+          <!-- Video 1.2 -->
+          <div class="bento-item aspect-[9/16] relative overflow-hidden rounded-lg shadow-md">
+            <iframe
+              src="https://player.vimeo.com/video/1076763028?h=384cfe3011&title=0&byline=0&portrait=0"
+              class="w-full h-full"
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+              allowfullscreen
+              title="Kunde Solar - Promo">
+            </iframe>
+            <div class="absolute bottom-0 w-full bg-black bg-opacity-60 text-white text-center p-2">
+              <h3 class="text-sm font-semibold">Benefits Promo</h3>
+              <p class="text-xs text-gray-300">Client: Kunde Solar | Style: Informative</p>
+            </div>
+          </div>
+          <!-- Video 1.3 -->
+          <div class="bento-item aspect-[9/16] relative overflow-hidden rounded-lg shadow-md">
+            <iframe
+              src="https://player.vimeo.com/video/1076722084?h=6a70d30e2e&title=0&byline=0&portrait=0"
+              class="w-full h-full"
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+              allowfullscreen
+              title="Kunde Solar - Testimonial Teaser">
+            </iframe>
+            <div class="absolute bottom-0 w-full bg-black bg-opacity-60 text-white text-center p-2">
+               <h3 class="text-sm font-semibold">Testimonial Teaser</h3>
+               <p class="text-xs text-gray-300">Client: Kunde Solar | Style: Engaging</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Client 2: GRILLIN GOA -->
+      <div class="bg-[#1f1f1f] p-6 rounded-xl max-w-6xl mx-auto mb-12">
+        <div class="flex items-center mb-6">
+          <div class="w-12 h-12 rounded-full overflow-hidden mr-4 flex-shrink-0">
+            <img src="grillingoa.jpg" alt="Grillin Goa Logo" class="w-full h-full object-cover">
+          </div>
+          <span class="text-lg font-medium text-gray-300">GRILLIN GOA</span>
+        </div>
+         <!-- Bento Grid for Grillin -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
+          <!-- Video 2.1 -->
+          <div class="bento-item aspect-[9/16] relative overflow-hidden rounded-lg shadow-md">
+            <iframe
+              src="https://player.vimeo.com/video/1076724497?h=9fbf77b83a&title=0&byline=0&portrait=0"
+              class="w-full h-full"
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+              allowfullscreen
+              title="Grillin Goa - Food Reel">
+            </iframe>
+             <div class="absolute bottom-0 w-full bg-black bg-opacity-60 text-white text-center p-2">
+              <h3 class="text-sm font-semibold">Food Showcase Reel</h3>
+              <p class="text-xs text-gray-300">Client: Grillin Goa | Style: Appetizing</p>
+            </div>
+          </div>
+          <!-- Video 2.2 -->
+          <div class="bento-item aspect-[9/16] relative overflow-hidden rounded-lg shadow-md">
+            <iframe
+              src="https://player.vimeo.com/video/1076723987?h=ab63eae05d&title=0&byline=0&portrait=0"
+              class="w-full h-full"
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+              allowfullscreen
+              title="Grillin Goa - Ambiance">
+            </iframe>
+             <div class="absolute bottom-0 w-full bg-black bg-opacity-60 text-white text-center p-2">
+              <h3 class="text-sm font-semibold">Ambiance Feature</h3>
+              <p class="text-xs text-gray-300">Client: Grillin Goa | Style: Lifestyle</p>
+            </div>
+          </div>
+          <!-- Video 2.3 -->
+          <div class="bento-item aspect-[9/16] relative overflow-hidden rounded-lg shadow-md">
+            <iframe
+              src="https://player.vimeo.com/video/1076723438?h=eaf853025f&title=0&byline=0&portrait=0"
+              class="w-full h-full"
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+              allowfullscreen
+              title="Grillin Goa - Offer Promo">
+            </iframe>
+            <div class="absolute bottom-0 w-full bg-black bg-opacity-60 text-white text-center p-2">
+              <h3 class="text-sm font-semibold">Offer Promotion</h3>
+              <p class="text-xs text-gray-300">Client: Grillin Goa | Style: Fast-Paced</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Client 3: PEPPERS GOA -->
+      <div class="bg-[#1f1f1f] p-6 rounded-xl max-w-6xl mx-auto mb-12">
+        <div class="flex items-center mb-6">
+          <div class="w-12 h-12 rounded-full overflow-hidden mr-4 flex-shrink-0">
+            <img src="peppersgoa.png" alt="Peppers Goa Logo" class="w-full h-full object-cover">
+          </div>
+          <span class="text-lg font-medium text-gray-300">PEPPERS RESTAURANT GOA</span>
+        </div>
+         <!-- Bento Grid for Peppers -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
+          <!-- Video 3.1 -->
+          <div class="bento-item aspect-[9/16] relative overflow-hidden rounded-lg shadow-md">
+            <iframe
+              src="https://player.vimeo.com/video/1076722003?h=4237fc3850&title=0&byline=0&portrait=0"
+              class="w-full h-full"
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+              allowfullscreen
+              title="Peppers Goa - Dish Feature">
+            </iframe>
+             <div class="absolute bottom-0 w-full bg-black bg-opacity-60 text-white text-center p-2">
+              <h3 class="text-sm font-semibold">Signature Dish Reel</h3>
+              <p class="text-xs text-gray-300">Client: Peppers Goa | Style: Mouthwatering</p>
+            </div>
+          </div>
+           <!-- Video 3.2 -->
+          <div class="bento-item aspect-[9/16] relative overflow-hidden rounded-lg shadow-md">
+            <iframe
+              src="https://player.vimeo.com/video/1076721639?h=6e12aa27a8&title=0&byline=0&portrait=0"
+              class="w-full h-full"
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+              allowfullscreen
+              title="Peppers Goa - Experience">
+            </iframe>
+            <div class="absolute bottom-0 w-full bg-black bg-opacity-60 text-white text-center p-2">
+              <h3 class="text-sm font-semibold">Dining Experience</h3>
+              <p class="text-xs text-gray-300">Client: Peppers Goa | Style: Inviting</p>
+            </div>
+          </div>
+           <!-- Video 3.3 -->
+          <div class="bento-item aspect-[9/16] relative overflow-hidden rounded-lg shadow-md">
+            <iframe
+              src="https://player.vimeo.com/video/1076721894?h=e9d12983a5&title=0&byline=0&portrait=0"
+              class="w-full h-full"
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+              allowfullscreen
+              title="Peppers Goa - Event Promo">
+            </iframe>
+             <div class="absolute bottom-0 w-full bg-black bg-opacity-60 text-white text-center p-2">
+              <h3 class="text-sm font-semibold">Live Music / Event</h3>
+              <p class="text-xs text-gray-300">Client: Peppers Goa | Style: Energetic</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add more client blocks and grids as needed -->
+
+    </section>
+
+    <!-- About Section -->
+    <section class="py-16 md:py-24 px-4 sm:px-8 max-w-7xl mx-auto">
+      <div class="relative mb-12 md:mb-20">
+        <h2
+          class="text-3xl sm:text-4xl lg:text-5xl font-bold relative z-10"
+        >
+          About Me
+        </h2>
+        <span
+          class="absolute -bottom-2 left-0 w-16 sm:w-24 h-1 bg-primary"
+        ></span>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">
+        <div>
+          <p class="text-base sm:text-lg text-gray-300 mb-6 sm:mb-8">
+            I’m Shatrugna Munankar, a passionate and detail-driven video editor with a sharp eye for storytelling and aesthetics. With a strong command over editing tools and creative direction, I bring raw footage to life—crafting content that captivates, informs, and leaves an impact..
+          </p>
+
+          <p class="text-base sm:text-lg text-gray-300 mb-6 sm:mb-8">
+            From Instagram reels and YouTube content to promotional videos and cinematic edits, I specialize in transforming ideas into compelling visual stories. Whether it’s fast-paced edits for influencers or polished content for brands, I know how to keep viewers engaged from the first second to the last..
+          </p>
+
+          <p class="text-base sm:text-lg text-gray-300">
+            ✨ Key Skills:
+• Seamless transitions and effects
+• Audio synchronization and enhancement
+• Color correction & cinematic grading
+• Motion graphics and text animations
+• Short-form and long-form content editing
+• Fast turnaround with a focus on quality
+          </p>
+          <br>
+          <p class="text-base sm:text-lg text-gray-300"> My edits have helped clients boost engagement, grow audiences, and build personal brands. I believe that great editing doesn’t just look good—it communicates and connects.
+          </p>
+<br>
+          <p class="text-base sm:text-lg text-gray-300"> Let’s work together to tell your story in the most powerful way possible.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="text-xl sm:text-2xl font-bold mb-6 sm:mb-8">
+            Tools & Expertise
+          </h3>
+
+          <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 sm:gap-6">
+            <!-- Tool Items using tool-item class from CSS -->
+            <div class="tool-item">
+              <div class="w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center text-primary mb-2">
+                <i class="ri-film-line ri-xl sm:ri-2x"></i>
+              </div>
+              <h4 class="font-medium text-sm sm:text-base">Premiere Pro</h4>
+            </div>
+            <div class="tool-item">
+              <div class="w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center text-primary mb-2">
+                <i class="ri-movie-line ri-xl sm:ri-2x"></i>
+              </div>
+              <h4 class="font-medium text-sm sm:text-base">After Effects</h4>
+            </div>
+            <div class="tool-item">
+              <div class="w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center text-primary mb-2">
+                <i class="ri-vidicon-line ri-xl sm:ri-2x"></i>
+              </div>
+              <h4 class="font-medium text-sm sm:text-base">Photoshop</h4>
+            </div>
+            <div class="tool-item">
+              <div class="w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center text-primary mb-2">
+                <i class="ri-sound-module-line ri-xl sm:ri-2x"></i>
+              </div>
+              <h4 class="font-medium text-sm sm:text-base">Illustrator</h4>
+            </div>
+            <div class="tool-item">
+              <div class="w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center text-primary mb-2">
+                <i class="ri-music-line ri-xl sm:ri-2x"></i>
+              </div>
+              <h4 class="font-medium text-sm sm:text-base">Audacity</h4>
+            </div>
+            <div class="tool-item">
+              <div class="w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center text-primary mb-2">
+                <i class="ri-line-chart-line ri-xl sm:ri-2x"></i>
+              </div>
+              <h4 class="font-medium text-sm sm:text-base">Canva.</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-16 md:py-24 px-4 sm:px-8 max-w-7xl mx-auto">
+      <div class="relative mb-12 md:mb-20">
+        <h2
+          class="text-3xl sm:text-4xl lg:text-5xl font-bold relative z-10"
+        >
+          Get In Touch
+        </h2>
+        <span
+          class="absolute -bottom-2 left-0 w-16 sm:w-24 h-1 bg-primary"
+        ></span>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+        <!-- Form Card -->
+        <div class="bg-[#111111] p-6 sm:p-8 rounded-lg">
+          <h3 class="text-xl sm:text-2xl font-bold mb-6">Send Me a Message</h3>
+
+          <form class="space-y-4 sm:space-y-6">
+            <div>
+              <label for="name" class="block text-sm font-medium text-gray-300 mb-2">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="w-full px-4 py-3 rounded-md border-none focus:ring-2 focus:ring-primary"
+                placeholder="Your name"
+                required
+              />
+            </div>
+            <div>
+              <label for="email" class="block text-sm font-medium text-gray-300 mb-2">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="w-full px-4 py-3 rounded-md border-none focus:ring-2 focus:ring-primary"
+                placeholder="Your email"
+                required
+              />
+            </div>
+            <div>
+              <label for="project" class="block text-sm font-medium text-gray-300 mb-2">Project Type</label>
+              <div class="relative">
+                <select
+                  id="project"
+                  name="project_type"
+                  class="w-full px-4 py-3 rounded-md appearance-none focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary"
+                  required
+                >
+                  <option value="" disabled selected>Select project type</option>
+                  <option value="Graphic Design">Graphic Design</option>
+                  <option value="reels">Instagram Reels</option>
+                  <option value="shorts">YouTube Shorts</option>
+                  <option value="other">Other Short-Form</option>
+                  <option value="consulting">Consulting</option>
+                </select>
+                <!-- Arrow handled by CSS -->
+              </div>
+            </div>
+            <div>
+              <label for="message" class="block text-sm font-medium text-gray-300 mb-2">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                class="w-full px-4 py-3 rounded-md border-none focus:ring-2 focus:ring-primary"
+                placeholder="Tell me about your project goals, timeline, and budget..."
+                required
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="bg-primary hover:bg-secondary text-white font-medium py-3 px-6 rounded-lg transition-colors duration-300 whitespace-nowrap w-full sm:w-auto"
+            > <!-- Changed to rounded-lg -->
+              Send Message
+            </button>
+          </form>
+        </div>
+
+        <!-- Contact Info Card -->
+        <div class="bg-[#111111] p-6 sm:p-8 rounded-lg flex flex-col justify-between">
+          <div>
+            <h3 class="text-xl sm:text-2xl font-bold mb-6">Contact Information</h3>
+            <div class="space-y-4 mb-8 sm:mb-12">
+              <div class="flex items-center">
+                <div class="w-8 h-8 sm:w-10 sm:h-10 flex-shrink-0 flex items-center justify-center text-primary mr-3 sm:mr-4">
+                  <i class="ri-mail-line ri-lg"></i>
+                </div>
+                <span class="break-all">shatrugna28@gmail.com</span> <!-- Placeholder Email -->
+              </div>
+              <div class="flex items-center">
+                <div class="w-8 h-8 sm:w-10 sm:h-10 flex-shrink-0 flex items-center justify-center text-primary mr-3 sm:mr-4">
+                  <i class="ri-phone-line ri-lg"></i>
+                </div>
+                <span>+91 8698974583S</span> <!-- Placeholder Phone -->
+              </div>
+              <div class="flex items-center">
+                <div class="w-8 h-8 sm:w-10 sm:h-10 flex-shrink-0 flex items-center justify-center text-primary mr-3 sm:mr-4">
+                  <i class="ri-map-pin-line ri-lg"></i>
+                </div>
+                <span>Goa, India</span> <!-- Placeholder Location -->
+              </div>
+            </div>
+          </div>
+          <div class="mt-auto">
+            <h3 class="text-lg sm:text-xl font-bold mb-4 sm:mb-6">Follow Me</h3>
+            <div class="flex flex-wrap gap-4 sm:gap-6">
+              <!-- Social Icons using social-icon class -->
+              <a href="https://www.instagram.com/vgn.productions?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="social-icon" aria-label="Instagram"><i class="ri-instagram-line ri-lg"></i></a>
+              <!-- Add other relevant social links -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 border-t border-[#333333]">
+      <div
+        class="max-w-7xl mx-auto px-4 sm:px-8 flex flex-col md:flex-row justify-between items-center text-center md:text-left"
+      >
+        <p class="text-sm text-gray-400 mb-4 md:mb-0">
+          © 2024 Shatrugna Munankar. All rights reserved.
+        </p>
+        <div class="text-sm">
+          <a href="#" class="text-gray-400 hover:text-primary transition-colors mr-4 sm:mr-6">Privacy Policy</a>
+          <a href="#" class="text-gray-400 hover:text-primary transition-colors">Terms of Service</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Vimeo Player API Script -->
+    <script src="https://player.vimeo.com/api/player.js"></script>
+
+  </body>
+</html>
